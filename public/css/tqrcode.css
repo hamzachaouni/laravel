@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* start create-tqrcode */
+.create-tqrcode {
+	font-family: 'Oswald', sans-serif;
+	padding: 40px 0;
+}
+.create-tqrcode .contenu-left .form {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 32px;
+}
+.create-tqrcode .contenu-left .form .form-group .form-control {
+	border-radius: 0;
+}
+.create-tqrcode .btn {
+	border-radius: 0;
+    padding: 6px 35px;
+}
+.create-tqrcode .contenu-left .form .form-group .form-check-input[type="checkbox"] {
+	-webkit-appearance: none;
+	appearance: none;
+}
+.create-tqrcode .contenu-left .form .form-group .form-check-input {
+	position: relative;
+}
+.create-tqrcode .contenu-left .form .form-group .form-check-input:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #DDD;
+	display: inline-block;
+	border: 1px solid #ccc;
+	position: relative;
+	top: 5px;
+	right: 10px;
+}
+.create-tqrcode .contenu-left .form .form-group .form-check-input[type="checkbox"]:checked + label:after {
+	font-family: "Font Awesome 5 Free";
+	content: '\f00c';
+	color: #080;
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	font-size: 30px;
+}
+
+@media (max-width: 766px) {
+	.create-tqrcode .contenu-right {
+	margin-top: 15px;
+}
+}
+.create-tqrcode .contenu-right .card-img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.create-tqrcode .contenu-right .card-img .card-img-title {
+	background: #324ef9;
+    padding: 14px 18px;
+    color: white;
+}
+.create-tqrcode .contenu-right .card-img .card-img-title h2 {
+	font-size: 23px;
+}
+.create-tqrcode .contenu-right .card-img .card-img-contenu {
+	padding: 14px 18px;
+}
+.create-tqrcode .contenu-left  .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.create-tqrcode .contenu-left  .btnimage {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.create-tqrcode .contenu-left  .upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+/* end create-tqrcode */
+/* start index-tqrcode */
+.index-tqrcode {
+	font-family: 'Oswald', sans-serif;
+	padding: 40px 0;
+}
+.index-tqrcode .contenu-top .fa-qrcode {
+	font-size: 40px;
+}
+.index-tqrcode .contenu-top .title {
+	font-size: 24px;
+    margin-left: 13px;
+}
+.index-tqrcode .contenu-top .btn {
+	border-radius: 0;
+    padding: 4px 14px;
+    margin-left: 32px;
+}
+.index-tqrcode .table {
+	padding: 26px 0;
+}
+.index-tqrcode .table tr td .fa-check-circle {
+    font-size: 20px;
+    color: #07a231;
+}
+.index-tqrcode .table tr td .fa-times-circle {
+    font-size: 20px;
+    color: red;
+}
+.index-tqrcode .table tr td .view {
+	border-radius: 0;
+    padding: 4px 11px;
+    background: #f2b658;
+    border: 1px solid #f2b658;
+}
+.index-tqrcode .table tr td .edit {
+	border-radius: 0;
+    padding: 4px 11px;
+    background: #7eb9ee;
+    border: 1px solid #7eb9ee;
+}
+.index-tqrcode .table tr td .delete {
+	border-radius: 0;
+    padding: 4px 11px;
+    background: #fa7473;
+    border: 1px solid #fa7473;
+}
+/* end index-tqrcode */

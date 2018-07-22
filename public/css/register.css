@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	background-color: #ffffff;
+}
+.py-4 {
+	padding-bottom: 0rem!important;
+	padding-top: 0rem!important;
+}
+.login-admin {
+	height: 100%;
+	font-family: 'Oswald', sans-serif;
+}
+.login-admin .img {
+	height: 100%;
+}
+.login-admin .contenu-left {
+	padding-right: 0;
+    padding-left: 0;
+    height: 100%;
+}
+
+.login-admin .contenu-right {
+	background: white;
+    padding: 120px 36px;
+    color: black;
+}
+
+.login-admin .contenu-right .form-group .form-control {
+	border-radius: 0;
+    padding: 12px;
+}
+.login-admin .contenu-right .btn {
+	border-radius: 0;
+    padding: 7px 21px;
+}
+.login-admin .link-lo-re {
+	margin-top: 5px;
+    font-size: 11px;
+}
+@media (max-width: 767px) {
+	.login-admin .contenu-left {
+		display: none;
+	}
+	.login-admin .contenu-right {
+        padding: 50px 50px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.bg-light {
+	background-color: #010419!important; 
+	font-family: 'Oswald', sans-serif;
+}
+.bg-light .navbar-brand {
+	background: white;
+    color: black;
+    padding: 4px 15px;
+    border-radius: 20px;
+}
+.bg-light .navbar-brand .fab,
+.bg-light .navbar-brand .fas {
+	margin-right: 10px;
+}
+.bg-light .navbar-nav .nav-item .nav-link {
+	color: white;
+}
